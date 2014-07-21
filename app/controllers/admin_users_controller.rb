@@ -15,6 +15,7 @@ class AdminUsersController < ApplicationController
   def create
     @admin_user = AdminUser.new(admin_user_params)
     if @admin_user.save
+      AdminMailer.admin_created(@admin_user).deliver
       flash[:notice] = 'Admin user created.'
       redirect_to(:action => 'index')
     else

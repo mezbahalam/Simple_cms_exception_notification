@@ -13,7 +13,7 @@ gem 'mysql2'
 #gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-#gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -47,4 +47,6 @@ gem 'exception_notification', '4.1.0.rc1'
 
 gem 'acts_as_list', '~> 0.4.0'  #listing position
 
-gem 'letter_opener', group: :development
+
+
+gem 'haml-rails'

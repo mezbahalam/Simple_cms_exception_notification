@@ -20,8 +20,8 @@ SimpleCms::Application.configure do
       address:              'smtp.gmail.com',
       port:                 587,
       domain:               'gmail.com',
-      user_name:            'mezbahalam27@gmail.com',
-      password:             '//Moni//62//',
+      user_name:            'ex@gmail.com',
+      password:             'secret',
       authentication:       'plain',
       enable_starttls_auto: true
   }

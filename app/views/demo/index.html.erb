@@ -1,0 +1,9 @@
+<h1>"Hello RAILS"</h1>
+
+<% name = "Kevin" %>
+<% name = "Sorry!'); alert('I hacked you!" %>
+
+<%= link_to('Roar', '#', :onclick => "jsRoar('#{j(name)}'); return true;") %>
+
+<%= javascript_tag("jsRoar('#{j(name)}');") %>
+<!-- "mezbah" -->

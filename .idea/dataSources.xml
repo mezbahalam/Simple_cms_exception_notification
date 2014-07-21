@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="430514202">
+    <data-source source="LOCAL" name="Rails simple_cms: development" uuid="483be8af-6605-40b0-90e7-918c8bd41304">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/simple_cms_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc7dfcfdfd0dfc8dfcbdfc2</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails simple_cms: test" uuid="f6585e61-b166-46a2-b42e-9161831a832a">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/simple_cms_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails simple_cms: production" uuid="3a7252ed-9d8c-49d5-82b0-703b5d17953e">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/simple_cms_production</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
